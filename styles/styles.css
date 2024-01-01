@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root {
+    --main-font: 'Josefin Sans', sans-serif;
+    --main-color: #B6C4B6;
+    /*d5e3e3*/
+    --main-text-color: #161A30;
+    --invalid-text: #FFF78A;
+    --black: #000000;
+    --strong: #43766C;
+    --button-color: #4F6F52;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font);
+    background-color: var(--main-color);
+    color: var(--main-text-color);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+
+.guess-text,
+.guess-text-container {
+    font-size: 3rem;
+
+}
+
+.box {
+    border: .25rem solid var(--main-text-color);
+    border-radius: .25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    display: inline-block;
+    font-size: 5rem;
+}
+
+.guess-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 16rem 0 16rem;
+    gap: 2rem;
+}
+
+.guess-container-text {
+    font-size: 2.5rem;
+}
+
+.button-guess {
+    display: flex;
+    border: .25rem solid var(--main-text-color);
+    border-radius: .25rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.invalid {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    color: var(--invalid-text);
+    font-size: 3rem;
+    gap: 1rem;
+}
+
+.fa-solid,
+.fa-triangle-exclamation {
+    font-size: 5rem;
+}
+
+.congrats {
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+strong {
+    color: var(--strong)
+}
+
+.playAgain-bt {
+    display: flex;
+    border: .25rem solid var(--main-text-color);
+    border-radius: .875rem;
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: var(--button-color);
+    color: var(--main-color);
+}
