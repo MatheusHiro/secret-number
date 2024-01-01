@@ -1,1 +1,1 @@
-A simple guessing game where the user uses the speech to guess the right "secret" number. Although the whole game is in english the user have to guess the numbers in Portuguse. There will be some additions to the game in the future. 
+A simple guessing game where the user uses the speech to guess the right "secret" number. Although the whole game is in english the user have to guess the numbers in portuguese. There will be some additions to the game in the future. 
